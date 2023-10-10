@@ -65,7 +65,9 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 3. Create "common.types.ts" file
 4. Create "Constants" folder for dummy data
 
-# Grafbase setup
+# Grafbase API setup
+Link https://grafbase.com/hoanglecoder/nextjs-flexible-website
+
 1. Go to https://www.grafbase.com/signup
 2. Sign Up with your GitHub account.
 3. Click "Create Project" button
@@ -80,5 +82,12 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 NEXT_PUBLIC_GRAFBASE_API_URL = [API Endpoint]   
 NEXT_PUBLIC_GRAFBASE_API_KEY = [API Key]    
 
+
+# Google Cloud setup for storing date
+1. Assume that you enter https://console.cloud.google.com and done all the registration process
+2. Add new project and set up details
+3. On the Sidebar, APIs & Services >  OAuth consent screen > Create > Input all required field
+4. Move above to "Credentials" -> Create Credentials -> OAuth Client ID -> App type: "Web app" -> Add Authorized JS URL -> type "http://localhost:3000" -> Add Authorized redirect URL -> type "http://localhost:3000/api/auth/callback/google" -> Click Create
+5. Open .env file, create GOOGLE_CLIENT_ID = [Client ID], GOOGLE_CLIENT_SECRET = [Client secret]
 
 ## Code Explain

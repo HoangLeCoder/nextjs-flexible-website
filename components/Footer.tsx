@@ -26,7 +26,7 @@ const Footer = () => {
             <div className="flex flex-col gap-12 w-full">
                 <div className="flex items-start flex-col">
                     <Image
-                        src="/logo-purple.svg"
+                        src="/logo-green.svg"
                         width={115}
                         height={38}
                         alt="Flexible"
