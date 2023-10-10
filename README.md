@@ -63,5 +63,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 2. Create "Components" folder
 3. Reconfig Tailwindcss in "tailwind.config.ts"
 3. Create "common.types.ts" file
+4. Create "Constants" folder for dummy data
 
 ## Code Explain
