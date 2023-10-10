@@ -39,13 +39,13 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 1. Open Terminal
 2. Run "npx create-next-app@latest ./"
 3. Choose below options: 
-√ Would you like to use TypeScript? ... [Yes]
-√ Would you like to use ESLint? ... [No]
-√ Would you like to use Tailwind CSS? ... [Yes]
-√ Would you like to use `src/` directory? ... [No]
-√ Would you like to use App Router? (recommended) ... [Yes]
-√ Would you like to customize the default import alias (@/*)? ... [No]
-4. Done create first Nextjs project
+√ Would you like to use TypeScript? ... [Yes].
+√ Would you like to use ESLint? ... [No].
+√ Would you like to use Tailwind CSS? ... [Yes].
+√ Would you like to use `src/` directory? ... [No].
+√ Would you like to use App Router? (recommended) ... [Yes].
+√ Would you like to customize the default import alias (@/*)? ... [No].
+4. Done create first Nextjs project.
 
 ## Install package
 1. Open Terminal
