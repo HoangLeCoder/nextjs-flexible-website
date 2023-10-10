@@ -57,3 +57,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - next-auth [Auth]  
 
 3. Run "npm i @grafbase/sdk --save-dev"
+
+## Add Folder
+1. Public Folder from references
+2. Create Components folder
