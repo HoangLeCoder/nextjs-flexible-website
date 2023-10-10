@@ -65,4 +65,15 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 3. Create "common.types.ts" file
 4. Create "Constants" folder for dummy data
 
+# Grafbase setup
+1. Go to https://www.grafbase.com/signup
+2. Sign Up with your GitHub account.
+3. Click "Create Project" button
+4. In VScode, open Terminal
+5. Run "npx grafbase init --config-format typescript". Check reference at "https://www.npmjs.com/package/@grafbase/sdk"
+6. Recode in "grafbase.config.ts"
+7. back to grafbase.com and connect to github page
+
+
+
 ## Code Explain
