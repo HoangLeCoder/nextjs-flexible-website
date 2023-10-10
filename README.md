@@ -72,8 +72,13 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 4. In VScode, open Terminal
 5. Run "npx grafbase init --config-format typescript". Check reference at "https://www.npmjs.com/package/@grafbase/sdk"
 6. Recode in "grafbase.config.ts"
-7. back to grafbase.com and connect to github page
-
+7. Back to grafbase.com and connect to Github page
+8. Import your project and 'Deploy'
+9. After entering your project admin screen, press 'Connect'
+10. In Vscode, create new file at most outside place and named it '.env'
+11. In '.env' file, input this:    
+NEXT_PUBLIC_GRAFBASE_API_URL = [API Endpoint]   
+NEXT_PUBLIC_GRAFBASE_API_KEY = [API Key]    
 
 
 ## Code Explain
